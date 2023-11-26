@@ -1,11 +1,9 @@
-// function - keyword
-// changeName - identifier (Name of the function)
-//  {} -> body of the function
+
 function changeName (){
     const storeName = document.getElementById("storename")
     storeName.innerHTML = "My Store"
 }
-// function call -> runs the body of the function
+
 changeName()
 
 function changeBg (){
