@@ -1,0 +1,164 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Menu */
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ddd;
+}
+/*  */
+#storename {
+  text-align: center;
+}
+/* Container */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+/* Product */
+.product {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+.product h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product p {
+  margin-bottom: 10px;
+}
+
+.product a {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+}
+
+.product button:hover {
+  background-color: #45a049;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.product-card {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+}
+/* Footer */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-logo {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.footer-logo img {
+  width: 100px;
+  height: auto;
+}
+
+.footer-content {
+  flex: 1;
+  margin: 10px;
+}
+
+.footer-content h2 {
+  color: #ddd;
+  margin-bottom: 10px;
+}
+
+.footer-content p {
+  margin-bottom: 10px;
+}
+
+.social-media {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.social-media li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.social-media a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-media a:hover {
+  color: #ddd;
+}
+
+/* change visibility */
+.hidden {
+  /* display: none !important; */
+}
